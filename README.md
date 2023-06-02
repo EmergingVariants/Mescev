@@ -223,4 +223,4 @@ Format: `wave_label,date,iso_a3,new_cases,new_deaths`
 
 # License 
 
-This project is licensed under the [MIT License](LICENSE).
+This code in this project is licensed under the [MIT License](LICENSE). The images and data under the [CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/).
