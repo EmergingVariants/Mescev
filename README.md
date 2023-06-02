@@ -3,7 +3,7 @@
  
 ![](MESCEV.png)
 
-This is the software repository of the manuscript "Enhancing global preparedness during an ongoing pandemic from partial and noisy data" [](https://www.medrxiv.org/content/10.1101/2022.08.19.22278981v2).
+This is the software repository of the manuscript "Enhancing global preparedness during an ongoing pandemic from partial and noisy data" (https://www.medrxiv.org/content/10.1101/2022.08.19.22278981v2).
 It is a 3-stage evaluation framework of the pandemic potential of an emerging variant from partial and noisy data. It combines a phylogenetic analysis of the first submitted sequenced samples, the import risk model that computes from the world air-transportation network the passenger flux from the outbreak country and the an epidemic model that predicts the global spread of the new variant. 
 
 In the **1st. Stage** the about 50 first sequenced samples in the outbreak country are phylogenetically analyzed via [BEAST](https://doi.org/10.1093/ve/vey016) which estimates the time of the most recent common ancestor $t_0$ and growth rate.
