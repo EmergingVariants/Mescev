@@ -159,7 +159,10 @@ In order, assuming you are in the [root directory of the repository](./):
 These codes generate files in directory `data/stage3_processed`, which are then used in epidemics scripts. 
 
 **Second step (Epidemics simulation)**:
-* `makefile` and python and bash scripts in the directory `mescev/stage3` perform epidemics simulation
+* `makefile` and python and bash scripts in the directory `mescev/stage3` perform epidemics simulation. Specifically, move in the directory and (with Alpha variants as example):
+
+* `make introductions voc=Alpha`
+* `make projections voc=Alpha`
 
 #### Generation of seeds
 
@@ -202,10 +205,6 @@ Rt_stddev, that is the standard deviation of the normal random walker which modi
 
 Then, you need a third argument specifying the name of the output file.
 Optionally, a fourth file containing a vector that is the generation time can be provided, i.e. the nth element is the fraction of transmission that occur n days after infection. If you do not provide such file, the default is a discretised gamma distribution with mean 5.5 and std dev 2.14, as befits covid (Ferretti, Ledda et al 2020).
-
-To test the model, try launching 
-Launch Rscript Renewal_process.R tests/Introduction.txt tests/Parameters.txt tests/output/epi_predicted.txt 
-File: `epi_predicted.csv`
 
 Wave labels:
 
